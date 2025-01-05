@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <select id="instrument-select">
+                <option value="piano">Piano</option>
+                <option value="synth">Synth</option>
+                <option value="guitar">Guitar</option>
+            </select>
+            <button id="play-alice">Play Alice</button>
+        </div>
+        <div id="keyboard">
+        </div>
+        <div id="score-display"></div>
+    </div>
+    <script src="http://unpkg.com/tone"></script>
+    <script src="script.js"></script>
+</body>
+</html>
